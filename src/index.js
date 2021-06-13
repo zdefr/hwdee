@@ -1,12 +1,23 @@
+
+import 'moment/locale/zh-cn';
+import locale from 'antd/lib/locale/zh_CN';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { ConfigProvider } from 'antd';
+
+document.getElementsByTagName('html')[0].style.fontSize = window.screen.width/1000+'px';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ConfigProvider locale={locale}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </ConfigProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

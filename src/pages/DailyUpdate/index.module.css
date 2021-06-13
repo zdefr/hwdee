@@ -1,0 +1,10 @@
+outer{
+    width: 100%;
+    height: 400rem;
+}
+
+.menu{
+    margin:18rem auto;
+    margin-left: 40rem;
+    margin-bottom: 0;
+}

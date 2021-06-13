@@ -1,0 +1,45 @@
+.outer{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayBox{
+    display: flex;
+    width: 100%;
+}
+
+.map{
+    flex: 0 0 auto;
+    width: calc(50% - 15rem);
+    height: 260rem;
+    padding: 5rem;
+    margin: 10rem ;
+    border: rgb(218, 218, 218) 1rem solid;
+    border-radius: 20rem;
+    background-color: white;
+}
+
+.map:nth-child(1){
+    margin-right: 0;
+}
+
+.scatter{
+    width: calc(100% - 20rem);
+    min-height: 190rem;
+    padding: 0 10rem;
+    border: rgb(218, 218, 218) 1rem solid;
+    border-radius: 20rem;
+    background-color: white;
+    margin: 0 10rem;
+    margin-top: 10rem;
+}
+
+.column{
+    width: calc(100% - 20rem);
+    margin: 0 10rem 10rem 10rem;
+    border: rgb(218, 218, 218) 1rem solid;
+    border-radius: 20rem;
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+.moduleSc{
+    width: 150rem;
+}
+
+.outer{
+    padding: 30px 15rem;
+    height: 100%;
+}
+
+.display{
+    display: flex;
+}
+
+.display_map{
+    width: 500rem;
+    height: 400rem;
+    padding: 20rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    background-color: white;
+    border-radius: 10rem;
+}
+
+.display_table{
+    flex: 1 0 auto;
+    width: 300rem;
+}
